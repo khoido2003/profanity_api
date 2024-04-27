@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsx ./seed.ts"
+    "seed": "npx tsx ./seed.ts",
+    "start": "npx wrangler dev index",
+    "deploy": "wrangler deploy --minify index.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +15,12 @@
   "dependencies": {
     "@upstash/vector": "^1.0.7",
     "csv-parser": "^3.0.0",
-    "hono": "^4.2.7"
+    "hono": "^4.2.7",
+    "langchain": "^0.1.36"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
-    "tsx": "^4.7.3"
+    "tsx": "^4.7.3",
+    "wrangler": "^3.52.0"
   }
 }
