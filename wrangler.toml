@@ -1,0 +1,6 @@
+name = "profanity_api"
+compatibility_date = "2024-04-16"
+
+[vars]
+VECTOR_URL = "https://enough-burro-16462-us1-vector.upstash.io"
+VECTOR_TOKEN= "ABYFMGVub3VnaC1idXJyby0xNjQ2Mi11czFhZG1pbllqSXhPR1k0WVdVdE9UTTVOeTAwWlRrMUxXSmhPRFl0T1RrMFpXWXhaVFU1Tm1SbA=="
